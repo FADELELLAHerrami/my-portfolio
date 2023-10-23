@@ -1,0 +1,88 @@
+.container{
+  width: 200px;
+  height: 100%;
+  background-color: rgb(35, 52, 135);
+  margin-top: 8%;
+  border-radius: 5px;
+}
+.image{
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  margin: 0;
+  padding: 0;
+}
+.infos{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  color: white;
+}
+.profession {
+  color: orange;
+}
+.infos > .name{
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.infos > p {
+  margin: 0;
+  font-size: 8px;
+}
+.infos > a {
+  text-decoration: none;
+  font-size: 7px;
+  color: white;
+}
+/* Buttons */
+.Buttons{
+  display: flex;
+  font-size: 8px;
+  margin-top: 5px;
+  width: 200px;
+}
+.Buttons > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.Buttons > a > p {
+  margin-left: 2px;
+}
+.email {
+  background-color: white;
+  height: 14px;
+  width: 70px ;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.linkdin {
+  background-color: #0E76A8;
+  color: white;
+  height: 14px;
+  width: 70px;
+  border-radius: 3px;
+}
+/* about */
+.about{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.text {
+  font-size: 8px;
+  margin-top: 0;
+}
+.AboutContainer{
+  margin-left: 25px;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 35px;
+  background-color: rgb(72, 100, 237);
+  border-radius: 0px 0px 5px 5px ;
+}
+

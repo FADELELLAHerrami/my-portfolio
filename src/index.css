@@ -1,0 +1,11 @@
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+body{
+  background-color: rgb(12, 42, 68);
+  margin: 0;
+  font-family: Inter,sans-serif
+}
